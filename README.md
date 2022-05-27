@@ -1,3 +1,4 @@
+![screenshot](src/images/screenshot.png | | width=200)
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # LAB | React IronContacts
@@ -22,7 +23,6 @@ Your task is to create a contact management app for the producer using React.
   $ npm start
   ```
 
-
 ## Submission
 
 - Upon completion, run the following commands:
@@ -35,14 +35,13 @@ Your task is to create a contact management app for the producer using React.
 
 - Create a Pull Request so that your TAs can check your work.
 
-
 ## Getting Started
 
 Clean the `App.js` component so that it has the following structure:
 
 ```jsx
 // src/App.js
-import "./App.css";
+import './App.css';
 
 function App() {
   return <div className="App"></div>;
@@ -67,7 +66,7 @@ Let's proceed.
 To import `contacts.json` in `App.js`, you can use:
 
 ```js
-import contacts from "./contacts.json";
+import contacts from './contacts.json';
 ```
 
 At the end of this iteration, your application should look like this:
